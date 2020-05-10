@@ -1,10 +1,10 @@
-package services;
+package ru.annachemic.reqres.services;
 
-import dto.CredentialsDto;
-import dto.auth.AuthDtoResponse;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
+import ru.annachemic.reqres.dto.CredentialsDto;
+import ru.annachemic.reqres.dto.auth.AuthDtoResponse;
 
 public interface AuthService {
     @POST("login")

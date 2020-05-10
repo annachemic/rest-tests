@@ -1,4 +1,4 @@
-package dto;
+package ru.annachemic.reqres.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

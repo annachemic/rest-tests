@@ -1,8 +1,8 @@
-package rest;
+package ru.annachemic.reqres.rest;
 
-import dto.user.UsersInfoResponse;
-import services.UserService;
-import utils.RetrofitUtils;
+import ru.annachemic.reqres.dto.user.UsersInfoResponse;
+import ru.annachemic.reqres.services.UserService;
+import ru.annachemic.reqres.utils.RetrofitUtils;
 
 import java.io.IOException;
 import java.util.List;

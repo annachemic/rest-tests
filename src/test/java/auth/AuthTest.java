@@ -1,19 +1,19 @@
 package auth;
 
-import dto.CredentialsDto;
-import dto.auth.AuthDtoResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import rest.AdditionalSteps;
-import services.AuthService;
-import utils.RetrofitUtils;
+import ru.annachemic.reqres.dto.CredentialsDto;
+import ru.annachemic.reqres.dto.auth.AuthDtoResponse;
+import ru.annachemic.reqres.rest.AdditionalSteps;
+import ru.annachemic.reqres.services.AuthService;
+import ru.annachemic.reqres.utils.RetrofitUtils;
 
 import java.io.IOException;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphanumeric;
-import static utils.CommonResponseMatchers.*;
+import static ru.annachemic.reqres.utils.CommonResponseMatchers.*;
 
 @Slf4j
 public class AuthTest {

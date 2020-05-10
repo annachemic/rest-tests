@@ -1,4 +1,4 @@
-package dto.user;
+package ru.annachemic.reqres.dto.user;
 
 import lombok.Data;
 

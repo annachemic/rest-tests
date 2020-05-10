@@ -1,4 +1,4 @@
-package utils;
+package ru.annachemic.reqres.utils;
 
 import lombok.experimental.UtilityClass;
 

@@ -1,11 +1,11 @@
-package services;
+package ru.annachemic.reqres.services;
 
-import dto.user.SingleUserInfoResponse;
-import dto.user.UsersInfoResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
+import ru.annachemic.reqres.dto.user.SingleUserInfoResponse;
+import ru.annachemic.reqres.dto.user.UsersInfoResponse;
 
 public interface UserService {
     @GET("users")

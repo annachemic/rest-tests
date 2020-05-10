@@ -1,16 +1,16 @@
 package users;
 
-import dto.user.SingleUserInfoResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomUtils;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import services.UserService;
-import utils.RetrofitUtils;
+import ru.annachemic.reqres.dto.user.SingleUserInfoResponse;
+import ru.annachemic.reqres.services.UserService;
+import ru.annachemic.reqres.utils.RetrofitUtils;
 
 import java.io.IOException;
 
-import static utils.CommonResponseMatchers.*;
+import static ru.annachemic.reqres.utils.CommonResponseMatchers.*;
 
 @Slf4j
 public class UserTest {

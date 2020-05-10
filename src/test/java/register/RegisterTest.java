@@ -1,20 +1,20 @@
 package register;
 
-import dto.CredentialsDto;
-import dto.register.RegisterDtoResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import rest.AdditionalSteps;
 import retrofit2.Response;
-import services.RegisterService;
-import utils.RetrofitUtils;
+import ru.annachemic.reqres.dto.CredentialsDto;
+import ru.annachemic.reqres.dto.register.RegisterDtoResponse;
+import ru.annachemic.reqres.rest.AdditionalSteps;
+import ru.annachemic.reqres.services.RegisterService;
+import ru.annachemic.reqres.utils.RetrofitUtils;
 
 import java.io.IOException;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphanumeric;
-import static utils.CommonResponseMatchers.*;
+import static ru.annachemic.reqres.utils.CommonResponseMatchers.*;
 
 @Slf4j
 public class RegisterTest {

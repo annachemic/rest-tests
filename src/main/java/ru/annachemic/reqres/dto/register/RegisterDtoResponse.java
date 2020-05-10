@@ -1,4 +1,4 @@
-package dto.register;
+package ru.annachemic.reqres.dto.register;
 
 import lombok.Data;
 

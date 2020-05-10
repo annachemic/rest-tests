@@ -1,4 +1,4 @@
-package dto.auth;
+package ru.annachemic.reqres.dto.auth;
 
 import lombok.Data;
 
